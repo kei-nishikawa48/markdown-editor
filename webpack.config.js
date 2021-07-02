@@ -15,12 +15,12 @@ module.exports = {
     extensions: [".js", ".ts", ".tsx"],
   },
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "dist"),
     filename: "index.js",
   },
   devServer: {
     hot: true,
     open: true,
-    contentBase: "public",
+    contentBase: "dist",
   },
 };
